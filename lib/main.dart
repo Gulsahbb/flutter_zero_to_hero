@@ -17,6 +17,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme: ThemeData.dark().copyWith(
         appBarTheme: AppBarTheme(
+          // ? Renkleri burada da tanımlayabiliriz. Yazmayı unutma
           centerTitle: true,
           backgroundColor: Colors.lightBlueAccent,
           foregroundColor: Colors.black,
