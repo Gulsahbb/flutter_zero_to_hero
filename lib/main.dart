@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_zero_to_hero/101/app_bar_learn.dart';
 import 'package:flutter_zero_to_hero/101/button_learn.dart';
+import 'package:flutter_zero_to_hero/101/color_learn.dart';
 import 'package:flutter_zero_to_hero/101/icon_learn.dart';
 
 void main() {
@@ -14,7 +15,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      theme: ThemeData.light().copyWith(
+      theme: ThemeData.dark().copyWith(
         appBarTheme: AppBarTheme(
           centerTitle: true,
           backgroundColor: Colors.lightBlueAccent,
@@ -22,7 +23,7 @@ class MyApp extends StatelessWidget {
           elevation: 0,
         ),
       ),
-      home: IconLearn(),
+      home: ColorLearn(),
     );
   }
 }
