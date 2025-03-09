@@ -40,5 +40,5 @@ class PngImage extends StatelessWidget {
     return Image.asset(_nameWithPath, fit: BoxFit.cover);
   }
 
-  String get _nameWithPath => 'assets/png/$name';
+  String get _nameWithPath => name;
 }
